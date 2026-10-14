@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333333;
+    margin: 20px;
+}
+
+h1 {
+    color: #0e0e0e;
+    text-align: center;
+}
+
+.seccion {
+    background-color: #ffffff;
+    border: 1px solid #b0bec5;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 20px;
+}
+
+.fondo1 {
+    background: url("fondoauto.png");
+    background-size: cover;
+}
+
+.campo label {
+    display: inline-block;
+    width: 140px;
+    color: #455a64;
+    font-weight: bold;
+}
+
+.filtros {
+    margin-bottom: 15px;
+}
+
+.filtros label {
+    margin-right: 5px;
+    margin-left: 15px;
+    color: #455a64;
+    font-weight: bold;
+}
+
+.filtros label:first-child {
+    margin-left: 0;
+}
+
+input, select {
+    border: 1px solid #90a4ae;
+    padding: 5px;
+}
+
+button {
+    background-color: #0b5ed7;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a58ca;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+br {
+    border: 1px solid #cfd8dc;
+    padding: 8px;
+    text-align: left;
+}
+
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#menu-container a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    color: black;
+    width: 150px;
+    text-align: center;
+
+}
+
+
+
+th {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+a {
+    color: #0b5ed7;
+    font-weight: bold;
+}
