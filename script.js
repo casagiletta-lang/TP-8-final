@@ -57,7 +57,7 @@ function mostrarConductores() {
     for (let i = 0; i < conductores.length; i++) {
         let conductor = conductores[i];
 
-        // Comparación segura (ignora mayúsculas/minúsculas)
+        
         let coincideSeguro = (filtroSeguro === "Todos" || (conductor.seguro && conductor.seguro.toUpperCase() === filtroSeguro.toUpperCase()));
         let coincideCarnet = (filtroCarnet === "Todos" || (conductor.tipo_carnet && conductor.tipo_carnet.toUpperCase() === filtroCarnet.toUpperCase()));
 
